@@ -5,6 +5,7 @@
 return {
   { 'tpope/vim-commentary' },
   { 'github/copilot.vim' },
+  { "ellisonleao/gruvbox.nvim", priority = 1000, config = true},
   {
     'stevearc/oil.nvim',
     dependencies = { 'nvim-tree/nvim-web-devicons' },
