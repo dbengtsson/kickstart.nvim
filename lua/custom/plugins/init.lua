@@ -22,4 +22,5 @@ return {
       vim.keymap.set('n', '<space>-', require('oil').toggle_float)
     end,
   },
+  { 'simrat39/rust-tools.nvim' },
 }
